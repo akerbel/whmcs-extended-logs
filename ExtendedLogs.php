@@ -1,6 +1,4 @@
 <?php
-
-
 if (!defined("WHMCS"))
     die("This file cannot be accessed directly");
 
@@ -11,9 +9,8 @@ function ExtendedLogs_config() {
     "version" => "1.0",
     "author" => "Anton Kerbel",
     "language" => "english",
-    "fields" => array(
-		//"droptable" => array ("FriendlyName" => "Удалить таблицу", "Type" => "yesno", "Description" => "Удалить таблицу модуля при деактивации", "Default" => false),
-	));
+    "fields" => array()
+    );
     return $configarray;
 }
     include_once(ROOTDIR."/modules/addons/".$module.'/vendor/autoload.php');
