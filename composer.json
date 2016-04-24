@@ -1,0 +1,21 @@
+{
+    "name": "akerbel/extendedlogs",
+    "version": "1.0.0",
+    "description": "Extended admin page for WHMCS logs",
+    "keywords": ["whmcs"],
+    "authors": [
+        {
+            "name": "Anton Kerbel",
+            "email": "apefromfuture@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ExtendedLogs\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "akerbel/whmcs-easy-addons": "1.*"
+    }
+}
